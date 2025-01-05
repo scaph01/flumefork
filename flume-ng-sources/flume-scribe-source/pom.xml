@@ -23,7 +23,7 @@ limitations under the License.
   <parent>
     <artifactId>flume-ng-sources</artifactId>
     <groupId>org.apache.flume</groupId>
-    <version>1.11.0</version>
+    <version>1.11.1-SNAPSHOT</version>
   </parent>
 
   <groupId>org.apache.flume.flume-ng-sources</groupId>
@@ -115,8 +115,8 @@ limitations under the License.
               <artifactId>maven-compiler-plugin</artifactId>
               <version>${mvn-compiler-plugin.version}</version>
               <configuration>
-                <source>1.6</source>
-                <target>1.6</target>
+                <source>1.8</source>
+                <target>1.8</target>
                 <excludes>
                   <exclude>**/generated-sources/**</exclude>
                 </excludes>

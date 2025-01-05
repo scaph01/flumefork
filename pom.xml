@@ -27,14 +27,14 @@ limitations under the License.
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.apache.flume</groupId>
   <artifactId>flume-parent</artifactId>
-  <version>1.11.0</version>
+  <version>1.11.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Apache Flume</name>
 
   <properties>
     <!-- Update for year of distribution. Should be set by the maven-release-plugin at release time. -->
-    <project.build.outputTimestamp>2022-01-02T00:00:00Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2025-01-05T19:50:55Z</project.build.outputTimestamp>
     <!-- Set default encoding to UTF-8 to remove maven complaints -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -437,6 +437,7 @@ limitations under the License.
     <name>Apache Software Foundation</name>
     <url>http://www.apache.org</url>
   </organization>
+
 
   <build>
 
@@ -1843,4 +1844,10 @@ limitations under the License.
     </plugins>
   </reporting>
 
+  <repositories>
+    <repository>
+      <id>huawei-maven</id>
+      <url>https://repo.huaweicloud.com/repository/maven/huaweicloudsdk/</url>
+    </repository>
+  </repositories>
 </project>
